@@ -126,11 +126,10 @@ hr{border:0;border-top:1px solid var(--line);margin:30px 0}
 
 <script>
 const products=[
-{id:"black",name:"The Essential — Black",price:999,color:"Black",image:"https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=85"},
-{id:"ivory",name:"The Essential — Ivory",price:999,color:"Ivory",image:"https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1000&q=85"},
-{id:"espresso",name:"The Essential — Espresso",price:1099,color:"Espresso",image:"https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=1000&q=85"}
+{id:"black",name:"The Essential — Black",price:999,color:"Black",image:"https://raw.githubusercontent.com/Sunnys9561/shyrvae-store/main/images/black-tee.jpg.png"},
+{id:"ivory",name:"The Essential — Ivory",price:999,color:"Ivory",image:"https://raw.githubusercontent.com/Sunnys9561/shyrvae-store/main/images/ivory-tee.png.png"},
+{id:"espresso",name:"The Essential — Espresso",price:1099,color:"Espresso",image:"https://raw.githubusercontent.com/Sunnys9561/shyrvae-store/main/images/espresso-tee.png.png"}
 ];
-
 const app=document.getElementById("app");
 const money=n=>"₹"+Number(n).toLocaleString("en-IN");
 const productById=id=>products.find(p=>p.id===id);
