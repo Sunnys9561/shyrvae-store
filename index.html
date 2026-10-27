@@ -125,11 +125,13 @@ hr{border:0;border-top:1px solid var(--line);margin:30px 0}
 </footer>
 
 <script>
+
 const products=[
-{id:"black",name:"The Essential — Black",price:999,color:"Black",image:"https://raw.githubusercontent.com/Sunnys9561/shyrvae-store/main/images/black-tee.jpg.png"},
-{id:"ivory",name:"The Essential — Ivory",price:999,color:"Ivory",image:"https://raw.githubusercontent.com/Sunnys9561/shyrvae-store/main/images/ivory-tee.png.png"},
-{id:"espresso",name:"The Essential — Espresso",price:1099,color:"Espresso",image:"https://raw.githubusercontent.com/Sunnys9561/shyrvae-store/main/images/espresso-tee.png.png"}
+{id:"black",name:"The Essential — Black",price:999,color:"Black",image:"https://images.weserv.nl/?url=raw.githubusercontent.com%2FSunnys9561%2Fshyrvae-store%2Fmain%2Fimages%2Fblack-tee.jpg.png&w=700&output=webp&q=75"},
+{id:"ivory",name:"The Essential — Ivory",price:999,color:"Ivory",image:"https://images.weserv.nl/?url=raw.githubusercontent.com%2FSunnys9561%2Fshyrvae-store%2Fmain%2Fimages%2Fivory-tee.png.png&w=700&output=webp&q=75"},
+{id:"espresso",name:"The Essential — Espresso",price:1099,color:"Espresso",image:"https://images.weserv.nl/?url=raw.githubusercontent.com%2FSunnys9561%2Fshyrvae-store%2Fmain%2Fimages%2Fespresso-tee.png.png&w=700&output=webp&q=75"}
 ];
+
 const app=document.getElementById("app");
 const money=n=>"₹"+Number(n).toLocaleString("en-IN");
 const productById=id=>products.find(p=>p.id===id);
